@@ -41,9 +41,9 @@ const Navbar = () => {
 
       </div>
       <div className="between_section">
-      <a href="../public/blank.html" target="_blank" >About Us</a>
-      <a href="../public/blank.html" target="_blank">Learn More</a>
-      <a href="../public/blank.html" target="_blank" >Privacy Policy</a>
+      <a href="blank.html" target="_blank" >About Us</a>
+      <a href="blank.html" target="_blank">Learn More</a>
+      <a href="blank.html" target="_blank" >Privacy Policy</a>
     </div>
 
 
