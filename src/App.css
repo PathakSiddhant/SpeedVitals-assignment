@@ -1,0 +1,95 @@
+:root {
+  --navbar-background-color: white;
+  --navbar-text-color: #333;
+}
+
+[data-theme="dark"] {
+  --navbar-background-color: black;
+  --navbar-text-color: white;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: var(--navbar-background-color);
+}
+
+.navbar a {
+  color: var(--navbar-text-color);
+  text-decoration: none;
+}
+
+.dark-mode {
+  background-color: #222;
+  color: white;
+}
+
+.mode-toggle i {
+  color: black;
+}
+
+.dark-mode .mode-toggle i {
+  color: white;
+}
+
+/* Graphs Section */
+.graphs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* flex-wrap:nowrap; */
+  width: 100%;
+  margin-top: 2rem;
+  /* border:1px solid black ; */
+}
+
+.graph1{
+  width: 48%;
+  border:1px solid black ;
+  /* margin-right: 20px; */
+}
+.graph2{
+  width: 48%;
+  border:1px solid black ;
+}
+/* Footer */
+footer {
+  margin-top: 2rem;
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+  /* background-color: var(--navbar-background-color);
+  color: var(--navbar-text-color);
+} */
+
+/* Responsive */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .graphs {
+    border:1px solid black ;
+    flex-wrap: wrap;
+  }
+  
+}
+}
