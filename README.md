@@ -19,7 +19,7 @@ Hi! I'm **Siddhant**, and this is my submission for the **SpeedVitals Frontend D
 
  
 ## 🌐 Live Demo  
-[Live Deployment](#) 
+[Live Deployment](https://speed-vitals-assignment-olive.vercel.app/) 
 
 ## 📜 About This Project  
 This project helped me deepen my understanding of **React, API handling, and data visualization with Apache ECharts**. I also focused on writing **clean, maintainable code** with proper structure and organization.  
